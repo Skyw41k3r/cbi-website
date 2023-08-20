@@ -50,6 +50,6 @@ window.addEventListener('resize', showButton);
     </nav>
     </>
   )
-}
+}}
 
 export default navbar

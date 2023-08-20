@@ -15,7 +15,10 @@ cursor: pointer;
     color: #242424;
     border: 1px solid var(--primary);
 
-    .btn--outline { brackround-color: transparent; color:; #fffpadding: 8px 20px; border: 1px solid var(--primary); 
+    .btn--outline { brackround-color: transparent; 
+        color: #fff;
+        padding: 8px 20px; 
+        border: 1px solid var(--primary); 
         transition: all 0.3s ease-out;
     }
 
@@ -28,8 +31,8 @@ cursor: pointer;
         padding: 12px 20px;
         font-size: 20px;
     }
-    .btn--medium: hover,.btn--large:hover {
+    .btn--medium:hover,.btn--large:hover {
         background: #fff;
         color:#242424;
         transition: all 0.3s ease-out;
-}
+}}
