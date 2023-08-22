@@ -14,8 +14,9 @@ cursor: pointer;
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
+}
 
-    .btn--outline { brackround-color: transparent; 
+    .btn--outline { background-color: transparent; 
         color: #fff;
         padding: 8px 20px; 
         border: 1px solid var(--primary); 
@@ -35,4 +36,4 @@ cursor: pointer;
         background: #fff;
         color:#242424;
         transition: all 0.3s ease-out;
-}}
+}
