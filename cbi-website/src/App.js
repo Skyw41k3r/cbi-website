@@ -1,17 +1,17 @@
 import react from 'react';
-import navbar from './componets/navbar';
+import navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './app.css';
 
 function App() {
     return (
         <>
-        <router>
-      <navbar /> 
+        <Router>
+      <Navbar /> 
       <Switch>
         {/* <rout path="/" exact component={home} /> */}
         </Switch>    
-      </router>     
+      </Router>     
        </> 
    );
 }
