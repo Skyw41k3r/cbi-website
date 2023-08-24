@@ -4,7 +4,7 @@ import { Button } from './Button';
 import './Navbar.css';
 
 
-function navbar() {
+function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
@@ -54,4 +54,4 @@ window.addEventListener('resize', showButton);
   )
 }}
 
-export default navbar
+export default Navbar
